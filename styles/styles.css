@@ -34,8 +34,7 @@
     gap: 48px;
     margin-right: 150px;
     padding: 11px 0px;
-    margin-top: 30px;
-    
+    margin-top: 30px;   
 }
 
 .font-clr{
@@ -45,4 +44,64 @@
 .fa-cart-shopping{
     height: 24px;
     width: 24px;
+}
+
+/*banner*/
+
+.banner-title{
+    font-size: 65px ;
+    font-weight: bold;
+    width: 570px;
+}
+.description{
+     color: #C4C7CD;
+     width: 570px;
+}
+.hero-flower{
+    display: flex;
+    justify-content: right;
+    padding-bottom: 300px;
+    margin-top: -300px;
+}
+
+.banner-padding{
+    padding: 150px 150px 0px 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.orange{
+    color: #E95A08;
 }
