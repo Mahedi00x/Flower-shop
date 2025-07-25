@@ -220,7 +220,7 @@
 .bloom {
   grid-column: 1;
   grid-row: 1;
-  background-image: url('/assets/deal-bloom.png');
+  background-image: url('../assets/deal-bloom.png');
 }
 
 .ana {
