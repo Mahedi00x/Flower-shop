@@ -55,19 +55,24 @@
 }
 .description{
      color: #C4C7CD;
-     font-size: 22px;
+     font-size: 26px;
      width: 570px;
+     
 }
 .hero-flower{
-    display: flex;
-    justify-content: right;
-    margin-top: -320px;
+    margin-right: 150px;
+    padding-top: 106px;
+    
 }
 
 .banner-padding{
+    
     padding: 150px 150px 0px 150px;
 }
-
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
 
 /*body*/
 .our-plants{
@@ -125,35 +130,308 @@
 }
 
 .lily{
-    font-size: 22px;
-    font-weight: ;
+    font-size: 18px;
+    font-weight:normal;
+}
+
+/*section-2*/
+
+.flower-str{
+    width: 540px;
+    margin-top: 200px;
+    margin-left: 150px;
 }
 
 
 
+.flower-content{
+    display: flex;
+}
+
+.flower-lst{
+    position: relative;
+    left: -200px;
+    justify-content: left ;
+    justify-content: center;
+    padding: 250px 0px;
+   
+}
+
+.badge{
+    position: relative;
+    left: -180px;
+    bottom: -60px;
+    width: 286px;
+    height: 286px;
+    filter: drop-shadow(-4px 7px 5px  #00000088);
+
+}
+
+.h3-style{
+    font-size: 50px;
+    font-weight: bold;
+    width: 540px;
+    
+    
+}
+
+.ul-text-style{
+    font-size: 22px;
+    color: #7A7C80;
+    width: 540px;
+}
+
+
+/*section-3*/
+
+.deals{
+    justify-content: center;
+    text-align: center;
+}
+
+.h2-style{
+    font-size: 50px;
+    font-weight: bold;
+}
+.paragraph{
+    display: flex;
+    justify-content: center;
+    color: #7A7C80;
+    font-size: 22px;
+}
+.p-width{
+    width: 888px;
+}
+.plant-img{
+    display: flex;
+    gap: 28px;
+    justify-content: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.bloom {
+  grid-column: 1;
+  grid-row: 1;
+  background-image: url('/assets/deal-bloom.png');
+}
+
+.ana {
+  grid-column: 1;
+  grid-row: 2;
+  background-image: url('/assets/deal-ana.png');
+}
+
+.zabo {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  background-image: url('/assets/deal-zabo.png');
+  
+}
+
+.offer-card {
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  position: relative;
+  min-height: 150px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.offer-card::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    z-index: 1;
+}
+
+.offer-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    z-index: 2;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  
+}
+
+.offer-text h2, .offer-text h3 {
+  margin-bottom: 10px;
+}
+
+.shop{
+    display: flex;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 200px;
+    justify-content: center;
+}
+
+.text-resize{
+    font-size: 16px;
+}
+
+.test{
+    width: 367px;
+}
 
 
 
+.subscribe-section {
+  background-image: url('/assets/news-letter-bg.png'); 
+  background-size: cover;
+  background-position: center;
+  height: 480px;
+  
+  margin-top: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.overlay {
+  padding: 40px;
+  text-align: center;
+  
+}
+
+
+.overlay h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.overlay h1 span {
+  color: #ffd700; 
+}
+
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.subscribe-form input[type="email"] {
+  flex: 1;
+  padding: 15px;
+  border: none;
+  font-size: 1rem;
+}
+
+.form{
+    width: 1200px;
+    height: 10px;
+}
+
+.subscribe-form button {
+  background-color: #f35b04;
+  color: #fff;
+  border: none;
+  padding: 0 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+}
+
+.subscribe-form button:hover {
+  background-color: #d94e00;
+}
+
+.footer-div {
+  background-color: #f8f9fc;
+  padding: 40px 60px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  max-width: 250px;
+  margin-left: 150px;
+}
+
+.footer-left img.logo {
+  width: 120px;
+  margin-bottom: 15px;
+}
 
 
 
+.footer-links {
+  display: flex;
+  gap: 60px;
+}
 
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
 
+.footer-links li {
+  margin-bottom: 10px;
+}
 
+.footer-links a {
+  color: #555;
+  text-decoration: none;
+  font-size: 14px;
+}
 
+.footer-links a:hover {
+  text-decoration: underline;
+}
 
+.footer-socials {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+  width: 36px;
+  height: 36px;
+  margin-right: 260px;
+  
+}
 
-
-
-
-
-
-
-
-
-
-
-
+  /*footer last part*/
+  .custom-footer {
+  background-color: #f8f9fc;
+  padding: 40px 60px;
+  border-top: 1px solid #e0e0e0;
+}
+.ft-last{
+    font-size: 18px;
+    color: #7D7E80;
+}
 
 /*shared style*/
 
@@ -165,3 +443,182 @@
 .orange{
     color: #E95A08;
 }
+
+
+/*responsive style*/
+
+@media (max-width: 576px) {
+  /* General */
+  .main {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+
+  .banner {
+    flex-direction: column;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+  }
+
+  .banner-padding {
+    padding: 50px 15px 0 15px;
+  }
+
+  .banner-title,
+  .description {
+    width: 100%;
+  }
+
+  .banner-title {
+    font-size: 36px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+
+  .hero-flower {
+    margin: 0;
+    padding: 20px 0;
+    width: 100%;
+  }
+
+  /* Nav */
+  .nav-style {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    height: auto;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 15px;
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  /* Grid Layout (Products) */
+  .grid-layout {
+    grid-template-columns:repeat(2, 1fr);
+    margin: 0 20px;
+    gap: 30px;
+  }
+
+  .img-resize,
+  .btn-style {
+    width: 100%;
+  }
+
+  /* Section 2 */
+  .flower-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flower-str,
+  .ul-text-style,
+  .h3-style {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+  }
+
+
+    .flower-lst {
+    position: static;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .badge{
+    display: none;
+    
+  }
+
+  /* Section 3 (Deals) */
+  .plant-img {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .offer-card {
+    min-height: 180px;
+  }
+
+  .offer-text {
+    font-size: 16px;
+  }
+
+  /* Subscribe Section */
+  .subscribe-section {
+    height: auto;
+    padding: 30px 15px;
+    background-position: center;
+  }
+
+  .overlay h1 {
+    font-size: 28px;
+  }
+
+  .subscribe-form {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .subscribe-form input[type="email"],
+  .subscribe-form button {
+    width: 30%;
+    padding: 12px;
+  }
+
+  /* Footer */
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .footer-left {
+    margin: 0;
+    text-align: center;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .footer-links ul {
+    text-align: center;
+  }
+
+  .footer-socials {
+    justify-content: center;
+    margin-right: 0;
+  }
+
+  .custom-footer {
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .ft-last {
+    font-size: 16px;
+  }
+
+  /* Fonts cleanup (optional fix for your weight declarations) */
+  .inter-font,
+  .noto-serif-font {
+    font-weight: 400;
+  }
+}
+
