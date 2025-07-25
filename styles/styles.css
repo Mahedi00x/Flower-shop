@@ -220,19 +220,19 @@
 .bloom {
   grid-column: 1;
   grid-row: 1;
-  background-image: url('../assets/deal-bloom.png');
+  background-image: url('');
 }
 
 .ana {
   grid-column: 1;
   grid-row: 2;
-  background-image: url('/assets/deal-ana.png');
+  background-image: url('./assets/deal-ana.png');
 }
 
 .zabo {
   grid-column: 2;
   grid-row: 1 / span 2;
-  background-image: url('/assets/deal-zabo.png');
+  background-image: url('./assets/deal-zabo.png');
   
 }
 
@@ -296,7 +296,7 @@
 
 
 .subscribe-section {
-  background-image: url('/assets/news-letter-bg.png'); 
+  background-image: url('./assets/news-letter-bg.png'); 
   background-size: cover;
   background-position: center;
   height: 480px;
