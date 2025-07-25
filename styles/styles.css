@@ -220,7 +220,7 @@
 .bloom {
   grid-column: 1;
   grid-row: 1;
-  background-image: url('');
+  background-image: url('../assets/deal-bloom.png');
 }
 
 .ana {
@@ -296,7 +296,7 @@
 
 
 .subscribe-section {
-  background-image: url('./assets/news-letter-bg.png'); 
+  background-image: url('../assets/news-letter-bg.png'); 
   background-size: cover;
   background-position: center;
   height: 480px;
